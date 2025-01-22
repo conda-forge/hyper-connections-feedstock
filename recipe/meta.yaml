@@ -1,5 +1,5 @@
 {% set name = "hyper-connections" %}
-{% set version = "0.1.8" %}
+{% set version = "0.1.9" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/hyper_connections-{{ version }}.tar.gz
-  sha256: 5729b3691bf9231b58cb189dc6b87764f54840c4962869b98cb720fbfdbfa101
+  sha256: 6b8002b586e019b684c2ddc33962f0dd71fb8366cf51538dd0dc8f34610aeb1d
 
 build:
   noarch: python
@@ -35,7 +35,7 @@ test:
 
 about:
   home: https://github.com/lucidrains/hyper-connections
-  summary: Attempt to make multiple residual streams from Bytedance's Hyper-Connections paper accessible to the public 
+  summary: Attempt to make multiple residual streams from Bytedance's Hyper-Connections paper accessible to the public
   license: MIT
   license_file: LICENSE
 
