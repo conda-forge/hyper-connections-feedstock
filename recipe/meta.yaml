@@ -1,5 +1,5 @@
 {% set name = "hyper-connections" %}
-{% set version = "0.1.11" %}
+{% set version = "0.1.15" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/hyper_connections-{{ version }}.tar.gz
-  sha256: 3ef1e8729a6d8f4f795562c3afe5bedf98686523f041bdb478f90f9fa336eaef
+  sha256: d36f9ea8803e82e14f233085653660ead52117ca1787186bd0fdb1970b65ce1c
 
 build:
   noarch: python
